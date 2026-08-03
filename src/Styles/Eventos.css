@@ -1,0 +1,68 @@
+.eventos{
+    padding:80px 10%;
+    background:white;
+}
+
+.eventos h2{
+    text-align:center;
+    font-size:40px;
+    margin-bottom:50px;
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.card{
+
+    width:300px;
+    background:#f8f8f8;
+    border-radius:12px;
+    padding:25px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+
+    transition:.3s;
+}
+
+.card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.card h3{
+
+    margin-bottom:15px;
+    color:#1f2937;
+
+}
+
+.card p{
+
+    margin:10px 0;
+
+}
+
+.card button{
+
+    margin-top:20px;
+    width:100%;
+    padding:12px;
+
+    border:none;
+
+    background:#D4AF37;
+
+    color:white;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+}

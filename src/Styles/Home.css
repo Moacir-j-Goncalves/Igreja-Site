@@ -1,0 +1,28 @@
+
+
+.banner {
+  text-align: center;
+  padding: 40px;
+}
+
+.banner img {
+  width: 150px;
+}
+
+.banner h1 {
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+.banner p {
+  font-size: 20px;
+}
+
+.banner button {
+  padding: 12px 25px;
+  border: none;
+  background: #8b5cf6;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}

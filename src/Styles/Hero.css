@@ -1,0 +1,31 @@
+.hero {
+  height: 40vh; /* ou 25vh se quiser só 1/4 da tela */
+  width: 100%;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url("/fbase.png") no-repeat center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column; /* organiza em coluna */
+  justify-content: center; /* centraliza verticalmente */
+  align-items: flex-start; /* joga tudo para a esquerda */
+  text-align: left; /* texto alinhado à esquerda */
+  color: #1f2937 ;
+  padding-left: 15px; /* espaço da margem esquerda */
+  padding-top: 130px;
+}
+
+.hero button {
+  margin-top: 10px; /* espaço entre texto e botão */
+  padding: 12px 24px;
+  background-color: #d4af37; /* dourado */
+  border: none;
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.hero button:hover {
+  background-color: #d4af37 ; /* dourado mais escuro no hover */
+}
