@@ -7,7 +7,7 @@
   justify-content: space-between;
   align-items: center;
 
-  padding: 0 40px;
+  padding: 0 45px;
 }
 .icones {
   display: flex;
@@ -32,6 +32,12 @@
   transform: scale(1.2);
   color: #d4af37; /* dourado */
 }
+.cabeçalho{
+  font-size: 28px;
+  font-weight: bold;
+  margin-left: -300px;
+
+}
 
 
 .logo {
@@ -52,4 +58,12 @@
 
 .menu li:hover {
   color: #d4af37;
+
+}
+.redes{
+    display: flex;
+  gap: 10px;
+  list-style: none;
+  margin-top: 20px;
+  margin-left: -90px;
 }

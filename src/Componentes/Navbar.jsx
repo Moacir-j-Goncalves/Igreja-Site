@@ -5,25 +5,36 @@ import logo from "../assets/Ipral-icon.png";
 function Navbar() {
   return (
     <nav className="navbar">
-      <h2 className="logo">
-          <img src="/Ipral-icon.png" alt="Logo da Igreja" /> Igreja prebiteriana Renovada
-          
-      </h2>
+
+      <div className="logo">
+
+        <img src={logo} alt="Logo" />
+
+      </div>
+      <div class className ="cabeçalho">
+          <h2>Igreja Prebiteriana Renovada</h2>
+      </div>
+
 
       <ul className="menu">
+
         <li>Início</li>
         <li>Quem Somos</li>
         <li>Eventos</li>
         <li>Comentários</li>
-        <li>
-          Redes Sociais
-          <div className="icones">
-            <FaFacebook />
-            <FaYoutube />
-            <FaInstagram />
-          </div>
+
+        <h5>Siga-nos</h5>
+
+        <li className="redes">
+
+          <button><FaFacebook /></button>
+          <button><FaYoutube /></button>
+          <button><FaInstagram /></button>
+        
         </li>
+
       </ul>
+
     </nav>
   );
 }
