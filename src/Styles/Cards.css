@@ -1,41 +1,96 @@
-.cards {
-  display: flex;
-  flex-direction: column; /* agora fica em coluna */
-  gap: 20px;
-  align-items: center; /* centraliza os cards */
-  margin: 40px 0;
+.eventos {
+  background-color: #142235;   /* Cor de fundo da seção de eventos */
+  padding: 20px;               /* Espaçamento interno */
+  border-radius: 8px;          /* Bordas arredondadas */
+  align-items: start;          /* Alinha itens ao topo (quando usado em flex/grid) */
+  box-sizing: border-box;      /* Inclui padding/borda no cálculo do tamanho */
+  min-height: 35px;            /* Altura mínima da seção */
 }
 
-.card {
-  background-color: #0b1a33;
-  color: #fff;
-  padding: 20px;
-  border-radius: 10px;
-  width: 300px; /* largura fixa para todos */
-  text-align: center;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+body {
+  margin: 0;                   /* Remove margens padrão */
+  padding: 0;                  /* Remove espaçamentos padrão */
+  font-family: Arial, sans-serif; /* Fonte padrão */
+  background-color: #1a2236;   /* Cor de fundo da página */
+  color: #fff;                 /* Texto branco */
 }
 
-.card-img {
-  width: 100%;
-  height: 150px;
-  object-fit: cover;
-  border-radius: 8px;
-  margin-bottom: 10px;
+/* Container principal da sessão */
+.linha {
+  display: grid;               /* Usa grid layout */
+  grid-template-columns: 1fr 1fr 1fr; /* Três colunas iguais */
+  gap: 20px;                   /* Espaço entre colunas */
+  margin: 40px;                /* Margem externa */
 }
 
-.card h3 {
-  color: #f9c300;
-  margin-bottom: 10px;
+/* Estilo geral das caixas dentro da grid */
+.linha > div {
+  background-color: #ffd700;   /* Fundo dourado */
+  padding: 20px;               /* Espaçamento interno */
+  border-radius: 10px;         /* Bordas arredondadas */
+  border: 1px solid #333;      /* Borda cinza escura */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.4); /* Sombra */
 }
 
-.card button {
-  margin-top: 10px;
-  background-color: #f9c300;
-  color: #0b1a33;
-  border: none;
-  padding: 8px 16px;
-  border-radius: 5px;
-  cursor: pointer;
-  font-weight: bold;
+/* Títulos dentro da grid */
+.linha h2 {
+  text-align: center;          /* Centraliza texto */
+  margin-bottom: 15px;         /* Espaço abaixo do título */
+  color: #ffd700;              /* Cor dourada */
+}
+
+/* Botões gerais */
+button {
+  display: block;              /* Ocupa linha inteira */
+  margin: 15px auto 0;         /* Centraliza horizontalmente */
+  padding: 10px 18px;          /* Espaçamento interno */
+  border: none;                /* Remove borda padrão */
+  border-radius: 6px;          /* Bordas arredondadas */
+  background-color: #ffd700;   /* Fundo dourado */
+  color: #0b1424;              /* Texto escuro */
+  font-weight: bold;           /* Texto em negrito */
+  cursor: pointer;             /* Cursor de mãozinha */
+  transition: background-color 0.3s ease; /* Transição suave */
+}
+
+button:hover {
+  background-color: #e6c200;   /* Cor dourada mais escura no hover */
+}
+
+/* Cards de eventos */
+.eventos .evento {
+  display: flex;               /* Layout flexível */
+  align-items: center;         /* Alinha verticalmente */
+  gap: 15px;                   /* Espaço entre itens */
+  margin-bottom: 20px;         /* Espaço abaixo de cada card */
+  background-color: #222a40;   /* Fundo azul escuro */
+  padding: 10px;               /* Espaçamento interno */
+  border-radius: 8px;          /* Bordas arredondadas */
+}
+
+.eventos img {
+  width: 80px;                 /* Largura fixa */
+  height: 80px;                /* Altura fixa */
+  border-radius: 6px;          /* Bordas arredondadas */
+  object-fit: cover;           /* Ajusta imagem sem distorcer */
+}
+
+/* Informações do evento */
+.evento-info h3 {
+  margin: 0;                   /* Remove margens padrão */
+  font-size: 1.1rem;           /* Tamanho da fonte */
+  color: #fff;                 /* Texto branco */
+}
+
+.evento-info p {
+  margin: 4px 0;               /* Espaçamento vertical */
+  font-size: 0.9rem;           /* Fonte menor */
+  color: #ccc;                 /* Texto cinza claro */
+}
+
+/* Comentários */
+.comentarios .comentario {
+  background-color: #222a40;   /* Fundo azul escuro */
+  padding: 12px;               /* Espaçamento interno */
+  border /* <- aqui está incompleto, falta definir a borda */
 }

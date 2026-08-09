@@ -1,35 +1,84 @@
-import "../Styles/Home.css";
-import fbase from "../assets/Fbase.png"; // única imagem usada em todos os cards
+import "../Styles/Cards.css";
 
-export default function Cards() {
+function Cards() {
   return (
-    <div className="cards">
-      {/* Card 1 - Culto da Família */}
-      <div className="card">
-        {/* <img src={} alt="Culto da Família" className="card-img" /> */}
-        <h3>Culto da Família</h3>
-        <p>25 de Maio • 19:00</p>
-        <p>Local: Templo Sede</p>
-        <button>Saiba Mais</button>
+    <section className="eventos">
+
+      <h2>📅 PRÓXIMOS EVENTOS</h2>
+
+      <div className="evento">
+
+        <img src="..\assets\IDE.jpeg" alt="IDE" />
+
+        <div className="evento-info">
+          <h3>Conference: A urgência do IDE</h3>
+          <p>Duas sessões</p>
+
+          <p>📅 22 de Agosto • 17H e 19h</p>
+
+          <p>📍 Igreja presbiteriana renovada-Abreu e Lima</p>
+        </div>
+
+        <button>SAIBA MAIS</button>
+
       </div>
 
-      {/* Card 2 - Vigília de Oração */}
-      <div className="card">
-        {/* <img src={fbase} alt="Vigília de Oração" className="card-img" /> */}
-        <h3>Vigília de Oração</h3>
-        <p>31 de Maio • 22:00</p>
-        <p>Local: Templo Sede</p>
-        <button>Saiba Mais</button>
-      </div>
+{/* 
+      <div className="evento">
 
-      {/* Card 3 - Encontro de Jovens */}
-      <div className="card">
-        {/* <img src={fbase} alt="Encontro de Jovens" className="card-img" /> */}
-        <h3>Encontro de Jovens</h3>
-        <p>08 de Junho • 16:00</p>
-        <p>Local: Salão Social</p>
-        <button>Saiba Mais</button>
-      </div>
-    </div>
+        <img src="/vigilia.jpg" alt="Vigília de Oração" />
+
+        <div className="evento-info">
+          <h3>Louvozão Retrô</h3>
+
+          <p>📅 27 de Julho • 19:00</p>
+
+          <p>📍 Igreja presbiteriana renovada-Abreu e Lima</p>
+        </div>
+
+        <button>SAIBA MAIS</button>
+
+      </div> */}
+
+{/* 
+      <div className="evento">
+
+        <img src="/jovens.jpg" alt="Encontro de Jovens" />
+
+        <div className="evento-info">
+          <h3>EBF Escola Biblica de Férias</h3>
+
+          <p>📅 20 de Julho • 14:00</p>
+
+          <p>📍 Igreja presbiteriana renovada-Abreu e Lima</p>
+        </div>
+
+        <button>SAIBA MAIS</button>
+
+      </div> */}
+{/* 
+      <div className="evento">
+
+        <img src="/jovens.jpg" alt="Encontro de Jovens" />
+
+        <div className="evento-info">
+          <h3>Conferência</h3>
+
+          <p>📅 31 de Janeiro • 15h as 17h/19h as 21h</p>
+
+          <p>📍 Igreja presbiteriana renovada-Abreu e Lima</p>
+        </div>
+
+        <button>SAIBA MAIS</button>
+
+      </div> */}
+
+      <button className="todos-eventos">
+        VER TODOS OS EVENTOS
+      </button>
+
+    </section>
   );
 }
+
+export default Cards;

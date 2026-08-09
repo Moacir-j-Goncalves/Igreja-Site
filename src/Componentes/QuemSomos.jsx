@@ -3,17 +3,21 @@ import "../Styles/QuemSomos.css";
 function QuemSomos() {
   return (
     <section className="quem-somos">
-      <div className="texto">
-        <h2>Quem Somos</h2>
-        <p>
-          Somos uma igreja comprometida em anunciar o Evangelho de Jesus Cristo,
-          acolher pessoas, fortalecer famílias e servir à comunidade com amor.
-        </p>
-        <p>
-          Nossa missão é levar esperança, promover a comunhão e ajudar cada
-          pessoa a crescer espiritualmente.
-        </p>
-      </div>
+
+      <h2>👥 QUEM SOMOS NÓS</h2>
+
+      <p>
+        Somos uma igreja cristã que acredita no poder
+        transformador do amor de Deus.
+      </p>
+
+      <p>
+        Nosso propósito é levar esperança, promover
+        comunhão e fazer discípulos de Jesus.
+      </p>
+
+      <button>SAIBA MAIS</button>
+
     </section>
   );
 }

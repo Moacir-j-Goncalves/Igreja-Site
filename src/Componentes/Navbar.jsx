@@ -23,13 +23,13 @@ function Navbar() {
         <li>Eventos</li>
         <li>Comentários</li>
 
-        <h5>Siga-nos</h5>
+        <h4>Redes sociais</h4>
 
         <li className="redes">
-
-          <button><FaFacebook /></button>
-          <button><FaYoutube /></button>
-          <button><FaInstagram /></button>
+          
+          <FaFacebook />
+          <FaYoutube />
+          <FaInstagram />
         
         </li>
 

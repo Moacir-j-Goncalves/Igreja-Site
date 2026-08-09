@@ -35,7 +35,7 @@
 .cabeçalho{
   font-size: 28px;
   font-weight: bold;
-  margin-left: -300px;
+  margin-left: -180px;
 
 }
 
@@ -60,10 +60,54 @@
   color: #d4af37;
 
 }
-.redes{
-    display: flex;
+.redes {
+  display: flex;
   gap: 10px;
   list-style: none;
   margin-top: 20px;
-  margin-left: -90px;
+  margin-left: -110px;
+  align-items: center;
+}
+
+.redes span {
+  font-size: 0.9rem;
+  color: #fff;
+  margin-right: 8px;
+}
+
+/* Botões sociais como links */
+.social {
+  background-color: #d4af37; /* dourado */
+  color: #0b1424;
+  border: none;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.social:hover {
+  transform: scale(1.1);
+}
+
+/* Cores específicas ao hover */
+.facebook:hover {
+  background-color: #1877f2;
+  color: #fff;
+}
+
+.youtube:hover {
+  background-color: #ff0000;
+  color: #fff;
+}
+
+.instagram:hover {
+  background-color: #e1306c;
+  color: #fff;
 }
