@@ -7,8 +7,7 @@ function QuemSomos() {
       <h2>👥 QUEM SOMOS NÓS</h2>
 
       <p>
-        Somos uma igreja cristã que acredita no poder
-        transformador do amor de Deus.
+        Somos uma igreja biblica e acolhedora.
       </p>
 
       <p>

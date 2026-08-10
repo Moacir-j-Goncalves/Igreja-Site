@@ -25,14 +25,19 @@ function Navbar() {
 
         <h4>Redes sociais</h4>
 
-        <li className="redes">
-          
-          <FaFacebook />
-          <FaYoutube />
-          <FaInstagram />
-        
-        </li>
+       <li className="redes">
+          <button className="btn-facebook">
+            <FaFacebook />
+          </button>
 
+          <button className="btn-youtube">
+            <FaYoutube />
+          </button>
+
+          <button className="btn-instagram">
+            <FaInstagram />
+          </button>
+        </li>
       </ul>
 
     </nav>

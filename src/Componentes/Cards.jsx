@@ -1,4 +1,6 @@
 import "../Styles/Cards.css";
+import ide from "../assets/IDE.jpeg";
+import Conferencia from "../assets/Conferencia.png";
 
 function Cards() {
   return (
@@ -8,39 +10,41 @@ function Cards() {
 
       <div className="evento">
 
-        <img src="..\assets\IDE.jpeg" alt="IDE" />
-
+          <img src={ide} alt="evento" />
         <div className="evento-info">
-          <h3>Conference: A urgência do IDE</h3>
+          <h3>Conference: A Urgência do IDE</h3>
           <p>Duas sessões</p>
 
           <p>📅 22 de Agosto • 17H e 19h</p>
 
-          <p>📍 Igreja presbiteriana renovada-Abreu e Lima</p>
+          <p>📍 Igreja Presbiteriana Renovada-Abreu e Lima</p>
         </div>
 
         <button>SAIBA MAIS</button>
 
       </div>
 
-{/* 
       <div className="evento">
 
-        <img src="/vigilia.jpg" alt="Vigília de Oração" />
+       <div className="conferencia">
 
-        <div className="evento-info">
-          <h3>Louvozão Retrô</h3>
+         <img src={Conferencia} alt="conferencia" />
 
-          <p>📅 27 de Julho • 19:00</p>
+        <div className="conferencia">
+          <h3>Conferência</h3>
 
-          <p>📍 Igreja presbiteriana renovada-Abreu e Lima</p>
+          <p>📅 31 de Janeiro • 15h as 17h/19h as 21h</p>
+
+          <p>📍 Igreja Presbiteriana Renovada-Abreu e Lima</p>
         </div>
 
+        </div>
+        
         <button>SAIBA MAIS</button>
 
-      </div> */}
+      </div> 
 
-{/* 
+ 
       <div className="evento">
 
         <img src="/jovens.jpg" alt="Encontro de Jovens" />
@@ -50,28 +54,12 @@ function Cards() {
 
           <p>📅 20 de Julho • 14:00</p>
 
-          <p>📍 Igreja presbiteriana renovada-Abreu e Lima</p>
+          <p>📍 Igreja Presbiteriana Renovada-Abreu e Lima</p>
         </div>
 
         <button>SAIBA MAIS</button>
 
-      </div> */}
-{/* 
-      <div className="evento">
-
-        <img src="/jovens.jpg" alt="Encontro de Jovens" />
-
-        <div className="evento-info">
-          <h3>Conferência</h3>
-
-          <p>📅 31 de Janeiro • 15h as 17h/19h as 21h</p>
-
-          <p>📍 Igreja presbiteriana renovada-Abreu e Lima</p>
-        </div>
-
-        <button>SAIBA MAIS</button>
-
-      </div> */}
+      </div> 
 
       <button className="todos-eventos">
         VER TODOS OS EVENTOS

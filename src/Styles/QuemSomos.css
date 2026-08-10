@@ -22,14 +22,14 @@
 .quem-somos button {
   margin-top: 90px;
   background-color: transparent;
-  color: #f9c300;
-  border: 1px solid #f9c300;
+  color: #FF8C00;
+  border: 1px solid #FF8C00;
   padding: 8px 20px;
   border-radius: 4px;
   cursor: pointer;
 }
 
 .quem-somos button:hover {
-  background-color: #f9c300;
+  background-color: #FF8C00;
   color: #0b1a33;
 }

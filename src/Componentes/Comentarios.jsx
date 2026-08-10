@@ -58,7 +58,7 @@ function Comentarios() {
           <small>❤️ 15</small>
         </div>
       </div>
-
+{/* 
       <div className="comentario">
   <div className="avatar">P</div>
   <div>
@@ -94,7 +94,7 @@ function Comentarios() {
     <small>❤️ 13</small>
   </div>
 </div>
-
+ */}
 
       <button className="todos-comentarios">
         VER TODOS OS COMENTÁRIOS
