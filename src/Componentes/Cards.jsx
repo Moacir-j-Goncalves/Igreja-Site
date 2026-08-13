@@ -1,6 +1,7 @@
 import "../Styles/Cards.css";
 import ide from "../assets/IDE.jpeg";
 import Conferencia from "../assets/Conferencia.png";
+import EBF from "../assets/EBF.jpeg";
 
 function Cards() {
   return (
@@ -8,6 +9,7 @@ function Cards() {
 
       <h2>📅 PRÓXIMOS EVENTOS</h2>
 
+      {/*====================================primeiro card ===========================================================*/}
       <div className="evento">
 
           <img src={ide} alt="evento" />
@@ -24,33 +26,33 @@ function Cards() {
 
       </div>
 
-      <div className="evento">
+      {/*========================================Segundo Card========================================================= */}
 
-       <div className="conferencia">
+       <div className="evento">
 
-         <img src={Conferencia} alt="conferencia" />
-
-        <div className="conferencia">
-          <h3>Conferência</h3>
+          <img src={Conferencia} alt="evento" />
+        <div className="evento-info">
+          <h3>Conference: A Urgência do IDE</h3>
+          <p></p>
 
           <p>📅 31 de Janeiro • 15h as 17h/19h as 21h</p>
 
           <p>📍 Igreja Presbiteriana Renovada-Abreu e Lima</p>
         </div>
 
-        </div>
-        
         <button>SAIBA MAIS</button>
 
-      </div> 
+      </div>
 
- 
-      <div className="evento">
 
-        <img src="/jovens.jpg" alt="Encontro de Jovens" />
+      {/*{/*========================================terceiro Card==================================================== */}
 
+       <div className="evento">
+
+          <img src={EBF} alt="evento" />
         <div className="evento-info">
           <h3>EBF Escola Biblica de Férias</h3>
+          <p></p>
 
           <p>📅 20 de Julho • 14:00</p>
 
@@ -59,7 +61,7 @@ function Cards() {
 
         <button>SAIBA MAIS</button>
 
-      </div> 
+      </div>
 
       <button className="todos-eventos">
         VER TODOS OS EVENTOS

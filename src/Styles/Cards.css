@@ -1,7 +1,7 @@
  .eventos{
   background-color: #142235;
 
-  padding: 20px;
+  padding: 10px;
 
   border-radius: 8px;
 
@@ -18,7 +18,7 @@ body {
   color: #fff;
 }
 ____________________________________________________________________________-
-.evento {
+/* .evento {
   width: 547px;
   height: 190px;
 
@@ -42,7 +42,7 @@ ____________________________________________________________________________-
 
 /* IMAGEM */
 .evento img {
-  width: 82px;
+  width: 8px;
   height: 100px;
 
   object-fit: cover;
@@ -53,11 +53,11 @@ ____________________________________________________________________________-
 }
 
 /* INFORMAÇÕES */
-.evento .evento-info {
+.evento-info {
   flex: 1;
 }
 
-.evento .evento-info h3 {
+.evento-info h3 {
   margin: 0 0 8px;
 
   color: #fff;
@@ -66,7 +66,7 @@ ____________________________________________________________________________-
   line-height: 1.15;
 }
 
-.evento .evento-info p {
+.evento-info p {
   margin: 5px 0;
 
   color: #eee;
@@ -93,7 +93,7 @@ ____________________________________________________________________________-
   font-weight: bold;
 
   cursor: pointer;
-}+
+}
 
 /* Container principal da sessão */
 .linha {
@@ -138,7 +138,7 @@ button:hover {
 }
 
 /* Cards de eventos */
-.eventos .evento {
+.evento {
   display: flex;
   align-items: center;
   gap: 15px;
@@ -168,9 +168,9 @@ button:hover {
 }
 
 /* Comentários */
-.comentarios .comentario {
+.comentario {
   background-color: #222a40;
   padding: 12px;
   border: #FF8C00;
 
-}
+} 

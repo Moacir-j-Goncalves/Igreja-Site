@@ -58,7 +58,7 @@ function Comentarios() {
           <small>❤️ 15</small>
         </div>
       </div>
-{/* 
+
       <div className="comentario">
   <div className="avatar">P</div>
   <div>
@@ -82,19 +82,6 @@ function Comentarios() {
     <small>❤️ 7</small>
   </div>
 </div>
-
-<div className="comentario">
-  <div className="avatar">L</div>
-  <div>
-    <strong>Lucas Ferreira</strong>
-    <span>Há 6 dias</span>
-    <p>
-      A vigília foi maravilhosa, momentos de oração profunda e comunhão verdadeira.
-    </p>
-    <small>❤️ 13</small>
-  </div>
-</div>
- */}
 
       <button className="todos-comentarios">
         VER TODOS OS COMENTÁRIOS

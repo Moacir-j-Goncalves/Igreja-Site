@@ -23,7 +23,6 @@ function Navbar() {
         <li>Eventos</li>
         <li>Comentários</li>
 
-        <h4>Redes sociais</h4>
 
        <li className="redes">
           <button className="btn-facebook">
