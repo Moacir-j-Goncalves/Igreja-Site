@@ -1,0 +1,76 @@
+.reels-section {
+  background-color: #142235;
+  margin: 0;
+  padding: 20px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  min-height: 355px;
+}
+
+.reels-section h2 {
+  text-align: center;
+  color: #ff8c00;
+  font-size: 21px;
+  font-family: Arial, sans-serif;
+  margin-bottom: 20px;
+}
+
+/* Reels lado a lado */
+.Rells {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Card do Instagram */
+.Rells .reel {
+  width: 270px !important;
+  min-width: 270px !important;
+  max-width: 270px !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  border-radius: 8px !important;
+  overflow: hidden !important;
+
+  background-color: #202b43 !important;
+
+  box-sizing: border-box;
+}
+
+/* Área onde ficam os dois Reels */
+.Rells > * {
+  background-color: #202b43 !important;
+  border-radius: 8px !important;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+  .Rells {
+    gap: 10px;
+  }
+
+  .Rells .reel {
+    width: 280px !important;
+    min-width: 280px !important;
+    max-width: 280px !important;
+  }
+}
+
+/* Celular */
+@media (max-width: 650px) {
+  .Rells {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Rells .reel {
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 350px !important;
+  }
+}

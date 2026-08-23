@@ -4,6 +4,7 @@ import Home from "./Componentes/Home";
 import Cards from "./Componentes/Cards";
 import QuemSomos from "./Componentes/QuemSomos";
 import Comentarios from "./Componentes/Comentarios";
+import  ReallsInstagram from "./Componentes/RellsInstagram"
 import "./Styles/App.css"; // certifique-se de importar o CSS
 
 function App() {
@@ -11,9 +12,10 @@ function App() {
     <>
       <Navbar />
       <Hero />
+      {/* <QuemSomos/> */}
 
       <div className="linha">
-        <QuemSomos />
+        <ReallsInstagram />
         <Cards />
         <Comentarios />
       </div>

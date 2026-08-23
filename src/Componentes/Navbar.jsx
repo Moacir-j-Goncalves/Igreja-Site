@@ -23,24 +23,75 @@ function Navbar() {
         <li>Eventos</li>
         <li>Comentários</li>
 
-
        <li className="redes">
+
           <button className="btn-facebook">
+           <a
+            href="https://www.facebook.com/IPRABREUELIMA"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-facebook"
+          >
             <FaFacebook />
+          </a>
           </button>
 
           <button className="btn-youtube">
-            <FaYoutube />
+             <a
+              href="https://www.youtube.com/@Iprabreuelima"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-youtube"
+            >
+              <FaYoutube />
+            </a>
+
           </button>
 
           <button className="btn-instagram">
-            <FaInstagram />
-          </button>
+                      <a
+                href="https://www.instagram.com/iprabreuelima/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-instagram"
+              >
+                <FaInstagram />
+              </a>
+         </button>
         </li>
       </ul>
 
     </nav>
   );
 }
+<li className="redes">
 
+  <a
+    href="https://www.facebook.com/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="btn-facebook"
+  >
+    <FaFacebook />
+  </a>
+
+  <a
+    href="https://www.youtube.com/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="btn-youtube"
+  >
+    <FaYoutube />
+  </a>
+
+  <a
+    href="https://www.instagram.com/iprabreuelima/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="btn-instagram"
+  >
+    <FaInstagram />
+  </a>
+
+</li>
 export default Navbar;

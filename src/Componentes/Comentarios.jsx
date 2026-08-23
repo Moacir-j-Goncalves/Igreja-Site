@@ -4,7 +4,7 @@ function Comentarios() {
   return (
     <section className="comentarios">
 
-      <h2>💬 COMENTÁRIOS SOBRE CULTOS E PROGRAMAÇÕES</h2>
+      <h2>💬 COMENTÁRIOS</h2>
 
       <div className="comentario">
         <div className="avatar">A</div>

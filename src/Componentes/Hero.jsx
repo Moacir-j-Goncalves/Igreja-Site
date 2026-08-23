@@ -1,5 +1,5 @@
 import "../Styles/Hero.css";
-import hero from "../assets/Fbase.png";
+import hero from "../assets/Ipr_fundo.png";
 
 export default function Hero() {
   return (
