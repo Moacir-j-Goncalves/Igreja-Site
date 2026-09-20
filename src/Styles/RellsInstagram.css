@@ -44,8 +44,9 @@
 
 /* Área onde ficam os dois Reels */
 .Rells > * {
-  background-color: #202b43 !important;
+  background-color: #ff8c00 !important;
   border-radius: 8px !important;
+   height: 500px !important; 
 }
 
 /* Tablet */
@@ -72,5 +73,6 @@
     width: 100% !important;
     min-width: 0 !important;
     max-width: 350px !important;
+    
   }
 }
